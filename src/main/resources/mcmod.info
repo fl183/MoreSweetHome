@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mshome",
+  "name": "More Sweet Home",
+  "description": "A mod that you could save your home and back to your home.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LPLaser"],
+  "credits": "Just me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
