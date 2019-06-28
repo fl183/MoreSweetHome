@@ -1,6 +1,7 @@
 package com.LPLaser.mshome;
 
 import com.LPLaser.mshome.Commands.CHome;
+import com.LPLaser.mshome.Commands.CListHome;
 import com.LPLaser.mshome.Commands.CSetHome;
 import com.LPLaser.mshome.Listeners.DeadListener;
 import net.minecraftforge.common.MinecraftForge;
@@ -15,7 +16,7 @@ import org.apache.logging.log4j.Logger;
 public class MoreSweetHome {
     public static final String modid = "mshome";
     public static final String name = "More Sweet Home";
-    public static final String version = "1.1";
+    public static final String version = "1.2";
 
     public Logger log;
 
@@ -33,6 +34,6 @@ public class MoreSweetHome {
     public void ServerStarting(FMLServerStartingEvent sse) {
         sse.registerServerCommand(new CSetHome());
         sse.registerServerCommand(new CHome());
-        //sse.registerServerCommand(new CListHome());
+        sse.registerServerCommand(new CListHome());
     }
 }

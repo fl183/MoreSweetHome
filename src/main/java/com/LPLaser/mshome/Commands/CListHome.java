@@ -36,10 +36,10 @@ public class CListHome extends CommandBase {
             return;
         }
 
-        MessageUtil.SendMessage(sender, "你拥有 " + listhome.length + " 个家", TextFormatting.RED);
+        MessageUtil.SendMessage(sender, "你拥有 " + listhome.length + " 个家", TextFormatting.GREEN);
         int i = 0;
         for (String tmp : listhome) {
-            MessageUtil.SendMessage(sender, String.format("%d. %s", ++i, tmp), TextFormatting.RED);
+            MessageUtil.SendMessage(sender, String.format("%d. %s", ++i, tmp), TextFormatting.GREEN);
         }
     }
 }
