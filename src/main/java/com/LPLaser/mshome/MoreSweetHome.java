@@ -1,5 +1,6 @@
 package com.LPLaser.mshome;
 
+import com.LPLaser.mshome.Commands.CBack;
 import com.LPLaser.mshome.Commands.CHome;
 import com.LPLaser.mshome.Commands.CListHome;
 import com.LPLaser.mshome.Commands.CSetHome;
@@ -35,5 +36,6 @@ public class MoreSweetHome {
         sse.registerServerCommand(new CSetHome());
         sse.registerServerCommand(new CHome());
         sse.registerServerCommand(new CListHome());
+        sse.registerServerCommand(new CBack());
     }
 }
